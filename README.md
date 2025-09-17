@@ -91,13 +91,13 @@ npm run build:currency-converter
 
 | Project | Description | Tech Stack | Live Demo |
 |---------|-------------|------------|-----------|
-| **React Router Site** | Multi-page application with routing | React, React Router, Tailwind CSS | [Live Demo](https://react-router-site.vercel.app) |
-| **Currency Converter** | Real-time currency conversion | React, API Integration, Tailwind CSS | [Live Demo](https://currency-converter.vercel.app) |
-| **Background Changer** | Dynamic background color picker | React, useState Hook | [Live Demo](https://background-changer.vercel.app) |
-| **Password Generator** | Secure password generator with options | React, useState, useEffect | [Live Demo](https://password-generator.vercel.app) |
-| **Counter App** | Simple increment/decrement counter | React, useState Hook | [Live Demo](https://counter-app.vercel.app) |
-| **Calculator** | Basic calculator application | React, useState Hook | [Live Demo](https://calculator-app.vercel.app) |
-| **Tailwind Props** | Component props with Tailwind styling | React, Tailwind CSS, Props | [Live Demo](https://tailwind-props.vercel.app) |
+| **React Router Site** | Multi-page application with routing | React, React Router, Tailwind CSS | [Live Demo](https://react-router-site-a4cqb2n0n-yuvrajrana10s-projects.vercel.app) |
+| **Currency Converter** | Real-time currency conversion | React, API Integration, Tailwind CSS | [Live Demo](https://currency-converter-mde28jbgk-yuvrajrana10s-projects.vercel.app) |
+| **Background Changer** | Dynamic background color picker | React, useState Hook | Coming Soon |
+| **Password Generator** | Secure password generator with options | React, useState, useEffect | Coming Soon |
+| **Counter App** | Simple increment/decrement counter | React, useState Hook | Coming Soon |
+| **Calculator** | Basic calculator application | React, useState Hook | Coming Soon |
+| **Tailwind Props** | Component props with Tailwind styling | React, Tailwind CSS, Props | Coming Soon |
 
 ### Learning Projects
 
@@ -159,12 +159,12 @@ Each project gets its own Vercel deployment:
 
 | Project | Live Demo | Repository Folder |
 |---------|-----------|-------------------|
-| **React Router Site** | [Live Demo](https://react-router-site.vercel.app) | `React-router-site/` |
-| **Currency Converter** | [Live Demo](https://currency-converter.vercel.app) | `CurrencyConverter/` |
-| **Background Changer** | [Live Demo](https://background-changer.vercel.app) | `background-changer/` |
-| **Password Generator** | [Live Demo](https://password-generator.vercel.app) | `password-generator/` |
-| **Tailwind Props** | [Live Demo](https://tailwind-props.vercel.app) | `tailwind-props-react/` |
-| **Counter App** | [Live Demo](https://counter-app.vercel.app) | `02counter/` |
+| **React Router Site** | [Live Demo](https://react-router-site-a4cqb2n0n-yuvrajrana10s-projects.vercel.app) | `React-router-site/` |
+| **Currency Converter** | [Live Demo](https://currency-converter-mde28jbgk-yuvrajrana10s-projects.vercel.app) | `CurrencyConverter/` |
+| **Background Changer** | Coming Soon | `background-changer/` |
+| **Password Generator** | Coming Soon | `password-generator/` |
+| **Tailwind Props** | Coming Soon | `tailwind-props-react/` |
+| **Counter App** | Coming Soon | `02counter/` |
 
 ### Quick Deploy Commands
 ```bash
