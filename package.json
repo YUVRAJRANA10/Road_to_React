@@ -1,0 +1,67 @@
+{
+  "name": "road-to-react",
+  "version": "1.0.0",
+  "description": "A collection of React projects showcasing my learning journey from basics to advanced concepts",
+  "private": true,
+  "workspaces": [
+    "02counter",
+    "background-changer",
+    "Calculator",
+    "CurrencyConverter",
+    "password-generator",
+    "React-router-site",
+    "tailwind-props-react",
+    "vite-react"
+  ],
+  "scripts": {
+    "dev": "echo 'Choose a project to run: npm run dev:<project-name>'",
+    "dev:counter": "cd 02counter && npm run dev",
+    "dev:background-changer": "cd background-changer && npm run dev",
+    "dev:calculator": "cd Calculator && npm run dev",
+    "dev:currency-converter": "cd CurrencyConverter && npm run dev",
+    "dev:password-generator": "cd password-generator && npm run dev",
+    "dev:router-site": "cd React-router-site && npm run dev",
+    "dev:tailwind-props": "cd tailwind-props-react && npm run dev",
+    "dev:vite-react": "cd vite-react && npm run dev",
+    "build": "npm run build:all",
+    "build:all": "npm run build:counter && npm run build:background-changer && npm run build:calculator && npm run build:currency-converter && npm run build:password-generator && npm run build:router-site && npm run build:tailwind-props && npm run build:vite-react",
+    "build:counter": "cd 02counter && npm run build",
+    "build:background-changer": "cd background-changer && npm run build",
+    "build:calculator": "cd Calculator && npm run build",
+    "build:currency-converter": "cd CurrencyConverter && npm run build",
+    "build:password-generator": "cd password-generator && npm run build",
+    "build:router-site": "cd React-router-site && npm run build",
+    "build:tailwind-props": "cd tailwind-props-react && npm run build",
+    "build:vite-react": "cd vite-react && npm run build",
+    "install:all": "npm install && npm run install:projects",
+    "install:projects": "cd 02counter && npm install && cd ../background-changer && npm install && cd ../Calculator && npm install && cd ../CurrencyConverter && npm install && cd ../password-generator && npm install && cd ../React-router-site && npm install && cd ../tailwind-props-react && npm install && cd ../vite-react && npm install",
+    "clean": "npm run clean:all",
+    "clean:all": "rimraf */node_modules */dist */build && npm run clean:root",
+    "clean:root": "rimraf node_modules",
+    "deploy:help": "echo 'Deploy individual projects to Vercel from their respective folders'",
+    "deploy:counter": "cd 02counter && vercel --prod",
+    "deploy:background-changer": "cd background-changer && vercel --prod",
+    "deploy:currency-converter": "cd CurrencyConverter && vercel --prod",
+    "deploy:password-generator": "cd password-generator && vercel --prod",
+    "deploy:router-site": "cd React-router-site && vercel --prod",
+    "deploy:tailwind-props": "cd tailwind-props-react && vercel --prod"
+  },
+  "keywords": [
+    "react",
+    "vite",
+    "frontend",
+    "javascript",
+    "learning",
+    "portfolio",
+    "monorepo"
+  ],
+  "author": "YUVRAJ",
+  "license": "MIT",
+  "devDependencies": {
+    "rimraf": "^5.0.5"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "name": "road-to-react-monorepo",
+  "description": "Monorepo for React learning projects - Deploy individual folders separately",
+  "env": {
+    "NODE_VERSION": "18"
+  }
+}
